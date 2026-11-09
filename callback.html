@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>wwkrx Publisher — sign-in</title>
+<style>body{background:#141518;color:#f2ede4;font:18px system-ui,sans-serif;padding:40px}</style></head><body>
+<p>Returning to wwkrx Publisher on this computer…</p>
+<script>
+// TikTok sends the user here after sign-in; hand the code over to the local panel (it runs only on the owner's computer).
+location.replace("http://127.0.0.1:8765/tiktok/callback/" + location.search);
+</script></body></html>
